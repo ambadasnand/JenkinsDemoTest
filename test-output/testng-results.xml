@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-12T10:07:16 IST" name="Suite" finished-at="2023-05-12T10:07:16 IST" duration-ms="129">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="OrangeHRMLogin.OrangeLogin()[pri:0, instance:TestCasesWithinGroups.OrangeHRMLogin@229d10bd]" name="OrangeLogin" class="TestCasesWithinGroups.OrangeHRMLogin"/>
+        <method signature="DemoOpenCartLogin.DemoOpenEmployeeLogin()[pri:0, instance:TestCasesWithinGroups.DemoOpenCartLogin@4b5d6a01]" name="DemoOpenEmployeeLogin" class="TestCasesWithinGroups.DemoOpenCartLogin"/>
+        <method signature="EasyCalLogin.EasyCalculaAdminLogin()[pri:0, instance:TestCasesWithinGroups.EasyCalLogin@72a7c7e0]" name="EasyCalculaAdminLogin" class="TestCasesWithinGroups.EasyCalLogin"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2023-05-12T10:07:16 IST" name="OrangeHRM Login" finished-at="2023-05-12T10:07:16 IST" duration-ms="42">
+      <class name="TestCasesWithinGroups.OrangeHRMLogin">
+        <test-method signature="OrangeLogin()[pri:0, instance:TestCasesWithinGroups.OrangeHRMLogin@229d10bd]" started-at="2023-05-12T10:07:16 IST" name="OrangeLogin" finished-at="2023-05-12T10:07:16 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeLogin -->
+      </class> <!-- TestCasesWithinGroups.OrangeHRMLogin -->
+    </test> <!-- OrangeHRM Login -->
+    <test started-at="2023-05-12T10:07:16 IST" name="EasyCalLogin" finished-at="2023-05-12T10:07:16 IST" duration-ms="7">
+      <class name="TestCasesWithinGroups.DemoOpenCartLogin">
+        <test-method signature="DemoOpenEmployeeLogin()[pri:0, instance:TestCasesWithinGroups.DemoOpenCartLogin@4b5d6a01]" started-at="2023-05-12T10:07:16 IST" name="DemoOpenEmployeeLogin" finished-at="2023-05-12T10:07:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoOpenEmployeeLogin -->
+      </class> <!-- TestCasesWithinGroups.DemoOpenCartLogin -->
+    </test> <!-- EasyCalLogin -->
+    <test started-at="2023-05-12T10:07:16 IST" name="DemoOpenCart Login" finished-at="2023-05-12T10:07:16 IST" duration-ms="4">
+      <class name="TestCasesWithinGroups.EasyCalLogin">
+        <test-method signature="EasyCalculaAdminLogin()[pri:0, instance:TestCasesWithinGroups.EasyCalLogin@72a7c7e0]" started-at="2023-05-12T10:07:16 IST" name="EasyCalculaAdminLogin" finished-at="2023-05-12T10:07:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EasyCalculaAdminLogin -->
+      </class> <!-- TestCasesWithinGroups.EasyCalLogin -->
+    </test> <!-- DemoOpenCart Login -->
+  </suite> <!-- Suite -->
+</testng-results>
